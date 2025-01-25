@@ -4,10 +4,10 @@ This project showcases the development of a containerized API management system 
 
 ## Features
 
-- **Exposes a REST API** for querying real-time NFL schedule data.
-- **Runs a containerized backend** using Amazon ECS with Fargate for scalability and cost-efficiency.
-- **Serverless architecture** for high availability and minimal operational overhead.
-- **API management and routing** handled seamlessly via Amazon API Gateway.
+- Provides a **REST API** for retrieving live **NFL schedule data**.
+- Implements a **containerized backend** powered by **Amazon ECS with Fargate**, ensuring scalability and cost-effectiveness.
+- Leverages a **serverless architecture** to deliver high availability with minimal operational complexity.
+- Efficiently manages and routes **API requests** using **Amazon API Gateway**.
 
 ## Architecture
 
