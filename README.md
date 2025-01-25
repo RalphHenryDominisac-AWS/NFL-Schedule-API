@@ -29,3 +29,46 @@ Before deploying this project, ensure you have the following:
    ```bash
    pip install google-search-results
    ```
+
+
+
+## Deployment
+
+1. Clone the repository and navigate to the project directory:
+     ```bash
+   git clone https://github.com/your-username/nfl-schedule-api.git
+   cd nfl-schedule-api
+   ```
+2. Build the Docker image:
+     ```bash
+   docker build -t nfl-schedule-api .
+   ```
+3. Push the Docker image to Amazon Elastic Container Registry (ECR).
+4. Deploy the application using ECS Fargate and set up API Gateway for routing.
+5. Test the REST API by sending a GET request to the /sports endpoint:
+   ```bash
+   curl https://your-api-gateway-url/sports
+   ```
+
+## Example Response
+   ```bash
+   {
+    "message": "NFL schedule fetched successfully.",
+    "games": [
+        {
+            "away_team": "Team A",
+            "home_team": "Team B",
+            "venue": "Stadium X",
+            "date": "2025-01-01",
+            "time": "8:00 PM ET"
+        }
+    ]
+}
+   ```
+
+## Cleanup
+- To avoid incurring costs, delete the ECS cluster, API Gateway, and other associated resources after use.
+
+## License
+- This project is licensed under the MIT License. See the LICENSE file for more details.
+  
