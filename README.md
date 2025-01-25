@@ -17,6 +17,9 @@ The system architecture includes the following components:
 2. **Elastic Load Balancing (ALB)**: Distributes traffic across containerized instances.
 3. **Elastic Container Service (ECS)**: Runs containerized Sports API services using Fargate.
 4. **Sports API Backend**: Queries SerpAPI for real-time NFL schedule data and processes responses.
+   
+![Image Alt](https://github.com/RalphHenryDominisac-AWS/NFL-Schedule-API/blob/0534a1526413d43fddf73fc7b251a5a33ee5fc6b/architecture%20NFL%20Schedule%20API.jpg)
+
 
 ## Prerequisites
 
