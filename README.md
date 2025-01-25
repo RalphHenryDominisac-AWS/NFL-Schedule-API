@@ -1,6 +1,6 @@
 # NFL Schedule API
 
-This project demonstrates building a containerized API management system for querying sports data. It leverages **Amazon ECS (Fargate)** for running containers, **Amazon API Gateway** for exposing REST endpoints, and an external **Sports API (SerpAPI)** for real-time sports data. The project showcases advanced cloud computing practices, including API management, container orchestration, and secure AWS integrations.
+This project showcases the development of a containerized API management system designed for retrieving sports data. It utilizes **Amazon ECS (Fargate)** for containerized application hosting, **Amazon API Gateway** to expose RESTful endpoints, and integrates with an external **Sports API (SerpAPI)** for accessing live sports information. The implementation highlights advanced cloud computing techniques, such as API management, container orchestration, and secure AWS service integrations.
 
 ## Features
 
